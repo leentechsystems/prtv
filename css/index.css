@@ -16,64 +16,49 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
 * {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
+
 body {
-    -webkit-touch-callout: none;
-    /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;
-    /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;
-    /* prevent copy paste, to allow, change 'none' to 'text' */
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background: url(../img/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: #7db9df;
-    background-attachment: fixed;
-    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    text-transform: uppercase;
-    width: 100%;
+    background-color:#7db9df;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
 }
+
 /* Portrait layout (default) */
-
 .app {
-    /*background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
-    */ background-size: 90% auto;
-    background-position: center 18%;
-    position: absolute;
-    /* position in the center of the screen */
-    height: 100%;
-    /* text area height */
-    width: 100%;
-    /* text area width */
-    text-align: center;
-}
-.logo_container {
-    box-sizing: border-box;
-    margin-top: 25%;
-    padding: 20px;
-    width: 100%;
-}
-.logo_container img {
-    height: auto;
-    max-width: 100%;
-}
-/* Landscape layout (with min-width) */
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
 
-@media screen and (min-aspect-ratio: 1/1) and (min-width: 480px) {
+    background-size: 90% auto;
+    background-position: center 18%;
+    position:absolute;             /* position in the center of the screen */
+    height:100%;                   /* text area height */
+    width:100%;                   /* text area width */
+    text-align:center;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:480px) {
     .app {
         background-size: 402px 140px;
     }
 }
+
 h1 {
     font-size: 24px;
     font-weight: normal;
