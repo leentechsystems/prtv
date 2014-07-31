@@ -32,10 +32,7 @@ body {
 
 
 .background {
-    background: #d4d4a8;
-    background-color: #d4d4a8;
-    background-attachment: fixed;
-    background-size: 90% auto;
+    background: #d4d4a8 url(../img/bg.png) no-repeat fixed center center;
     height: 100%;
     left: 0;
     position: absolute;
