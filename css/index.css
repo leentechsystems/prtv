@@ -32,12 +32,6 @@ body {
 
 .background {
     background: url("../img/bg.png") no-repeat fixed center center / cover #d4d4a8;
-    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-attachment:fixed;
     height: 100%;
@@ -76,7 +70,7 @@ h1 {
 .copyright {
     bottom: 2%;
     color: #88844d;
-    font-size: 13px;
+    font-size: 20px;
     position: absolute;
     text-align: center;
     text-transform: none;
