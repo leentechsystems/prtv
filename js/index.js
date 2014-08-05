@@ -33,7 +33,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        window.location = 'http://www.philippinerealtytv.com/index.php';
+        window.location = 'http://www.philippinerealtytv.com/index.php?mobile=1';
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
